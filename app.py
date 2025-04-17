@@ -1,6 +1,6 @@
-# app.py
-def add(a, b):
-    return a + b
+def my_function():
+    print("Hello")
 
-if __name__ == "__main__":
-    print("Sum is:", add(5, 3))
+
+def another_function():  # <- two blank lines above this
+    print("World")
